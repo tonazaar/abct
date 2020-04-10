@@ -5,6 +5,7 @@ A) Assignment of the day
 
 B) Benefits
 - You will know, how to use, when to use it.
+- You can raise funds issuing your own tokens
 
 C) Resources
 
@@ -27,9 +28,9 @@ Place to list your tokens
 - https://explorer.bitcoin.com/tbch/tokens
 
 For javascript developers
-https://developer.bitcoin.com/slp/docs/js/getting-started
+- https://developer.bitcoin.com/slp/docs/js/getting-started
 
 For bitcoin cash tools
-https://developer.bitcoin.com/bitbox/docs/getting-started 
+- https://developer.bitcoin.com/bitbox/docs/getting-started 
 
 
