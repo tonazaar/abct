@@ -16,6 +16,12 @@ For non developers
 
 - https://news.bitcoin.com/how-to-create-custom-slp-tokens-with-the-bitcoin-com-mint/
 
+Github sdk
+- https://github.com/Bitcoin-com/slp-sdk
+
+Ready made examples 
+- https://github.com/Bitcoin-com/slp-sdk/tree/master/examples
+
 D) Other links
 
 Testnet BCH
@@ -33,4 +39,15 @@ For javascript developers
 For bitcoin cash tools
 - https://developer.bitcoin.com/bitbox/docs/getting-started 
 
+
+
+F) Handy Links
+
+- [SLP API introduction](https://developer.bitcoin.com/slp)
+- [SLP API docs](https://developer.bitcoin.com/slp/docs/js/getting-started)
+- [SLP specification](https://github.com/simpleledger/slp-specifications/blob/master/slp-token-type-1.md)
+- [SLP website](https://simpleledger.cash/)
+- [Bitcoin.com SLP explorer](https://simpleledger.info/)
+- [Fountainhead SLP explorer](https://simpleledger.info/)
+- [SLP specification unit tests](https://github.com/simpleledger/slp-unit-test-data) (Python)
 
