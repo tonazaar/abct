@@ -51,3 +51,6 @@ F) Handy Links
 - [Fountainhead SLP explorer](https://simpleledger.info/)
 - [SLP specification unit tests](https://github.com/simpleledger/slp-unit-test-data) (Python)
 
+
+G) Exchange for tokens
+- https://www.bitcoincashcoloredcoins.com/
