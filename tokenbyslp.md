@@ -1,0 +1,35 @@
+Anybody can create a token (ABCT)
+
+A) Assignment of the day
+- Create SLP token of your own. List it for public to use.
+
+B) Benefits
+- You will know, how to use, when to use it.
+
+C) Resources
+
+For non developers
+- https://simpleledger.cash/get-started/
+
+- https://news.bitcoin.com/how-to-create-your-own-slp-token-using-the-bitcoin-cash-blockchain/
+
+- https://news.bitcoin.com/how-to-create-custom-slp-tokens-with-the-bitcoin-com-mint/
+
+D) Other links
+
+Testnet BCH
+- https://explorer.bitcoin.com/tbch/tokens
+
+Getting testnet BCH
+- https://developer.bitcoin.com/faucets/bch/?no-cache=1
+
+Place to list your tokens
+- https://explorer.bitcoin.com/tbch/tokens
+
+For javascript developers
+https://developer.bitcoin.com/slp/docs/js/getting-started
+
+For bitcoin cash tools
+https://developer.bitcoin.com/bitbox/docs/getting-started 
+
+
