@@ -55,3 +55,6 @@ F) Handy Links
 
 G) Exchange for tokens
 - https://www.bitcoincashcoloredcoins.com/
+
+H) To create your own testnet faucet
+- https://github.com/Bitcoin-com/testnet-faucet
