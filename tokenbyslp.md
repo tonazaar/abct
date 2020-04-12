@@ -29,6 +29,7 @@ Testnet BCH
 
 Getting testnet BCH
 - https://developer.bitcoin.com/faucets/bch/?no-cache=1
+- https://testnet.help/en/bchfaucet/testnet (use with caution)
 
 Place to list your tokens
 - https://explorer.bitcoin.com/tbch/tokens
