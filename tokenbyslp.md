@@ -40,7 +40,8 @@ For javascript developers
 For bitcoin cash tools
 - https://developer.bitcoin.com/bitbox/docs/getting-started 
 
-
+Details on bitcoin cash
+- https://developer.bitcoin.com/mastering-bitcoin-cash/5-the-bitcoin-cash-network/
 
 F) Handy Links
 
@@ -58,3 +59,5 @@ G) Exchange for tokens
 
 H) To create your own testnet faucet
 - https://github.com/Bitcoin-com/testnet-faucet
+
+
