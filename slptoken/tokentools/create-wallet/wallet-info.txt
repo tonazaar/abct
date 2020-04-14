@@ -1,0 +1,19 @@
+BIP44 $BCH Wallet
+
+128 bit english BIP32 Mnemonic:
+feature around clay wedding mask comic satoshi rather furnace kiss extra absent
+
+BIP44 Account: "m/44'/145'/0'"
+m/44'/145'/0'/0/0: bitcoincash:qqxy86ump2suqfsqs6j7wq802kxklnh79skfmnsh63
+m/44'/145'/0'/0/1: bitcoincash:qqwczkq6r4umgpx8juae6fyyw6sytpxs8yukgycxkq
+m/44'/145'/0'/0/2: bitcoincash:qq9u30ztt4cn50ag7s276ttzq2wp5rp6lsyymyjt5a
+m/44'/145'/0'/0/3: bitcoincash:qzume0usp30dr362609epz82847dxhwspqlslyvrj5
+m/44'/145'/0'/0/4: bitcoincash:qrtuz608h5a3g5dv8kvgp7jy8f6mwqh4csgr3upf9a
+m/44'/145'/0'/0/5: bitcoincash:qqj2f5sd3slzders7qz69y2jx4xlefx6vyfn4jflld
+m/44'/145'/0'/0/6: bitcoincash:qpwgvv5kh7gxe9uh5lx6wyw0zleaqp0et5dv3n37s0
+m/44'/145'/0'/0/7: bitcoincash:qzhe8xee29gl8hdlve93tdj952l53d7lkcpenhztja
+m/44'/145'/0'/0/8: bitcoincash:qpjz3aueqzrn0lw68scja673zw70y7nl6gmafr3hn7
+m/44'/145'/0'/0/9: bitcoincash:qpq0vy58scu44eutf6sst8n8a2kfwu83e5e7jqxegs
+
+
+

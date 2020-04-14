@@ -1,0 +1,19 @@
+BIP44 $BCH Wallet
+
+128 bit english BIP32 Mnemonic:
+tragic forward analyst city pill forest wrong edge glance goat dash piano
+
+BIP44 Account: "m/44'/145'/0'"
+m/44'/145'/0'/0/0: bchtest:qppqgw9tdullmc2hdyfvlpuudw8fsyuys5ge8da5kt
+m/44'/145'/0'/0/1: bchtest:qqdmrg0el6qvepm58n5ugs92saq2hwvwtyy9uzewh8
+m/44'/145'/0'/0/2: bchtest:qzfttdwkmhc8m5j8m9g5hnd50umdllce5cws7zmwcj
+m/44'/145'/0'/0/3: bchtest:qpqexf35m9zcxvtp6zy267n5apdtmf0lfgkuthvsdg
+m/44'/145'/0'/0/4: bchtest:qq5df7r4yvf08ytr0z7y9jrhmd5x3hlqssvhy9en90
+m/44'/145'/0'/0/5: bchtest:qz29zkrqw2zeu0fkrv2pqm4wqes0s2a45qw8zrz6w6
+m/44'/145'/0'/0/6: bchtest:qq74hnrwhupngwk3s784sge9s47djxrwquh2d0d7av
+m/44'/145'/0'/0/7: bchtest:qpt5nk0872n8prtwz54l2g74pj7t7khzms0qs5fukm
+m/44'/145'/0'/0/8: bchtest:qqsggggl24kwfgy904u47qh4g8h4cqfqn5gr3wuvk2
+m/44'/145'/0'/0/9: bchtest:qze96n2xa5draprdu3lv3dnkdywvyynqksq2g4eu9z
+
+
+
