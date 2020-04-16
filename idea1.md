@@ -16,16 +16,21 @@ Typical business model is (cost in bracket)
 
 C) Software sales/subscription/usage
 
-Consider above two models
+Consider software sale market place having
+- Developers
+- Resellers
+- Users
 
+Typically 
 - You have a software to sell
 - Make it available for resellers to register and sell it.
-- Once resellers register, they get to issues license on your behalf to target customers
+- Once resellers register, they get to issues license on your behalf 
+- They reach the target customers
 - End-user downloads the software or access it as a service.
 
 Use of tokens in above
-- Fixed value tokens issued on Blockchain (using SLP, as it has many advantages)
-- Token are mapped to usages on platform.
+- Fixed value tokens issued on Blockchain (say SLP)
+- Token are mapped to costs on platform.
 - All transaction on platform happens in tokens
 - Settlement in native currencies
 
@@ -74,24 +79,15 @@ Operation
 - Payment is settled between parties
 
 Use of tokens in above
-- Fixed value tokens issued on Blockchain (using SLP, as it has many advantages)
-- Token are mapped to usages on platform.
+- Fixed value tokens issued on Blockchain (say SLP)
+- Token are mapped to usages on platform
 - All transaction on platform happens in tokens
 - Settlement in native currencies
 
-
-Various type of features to provide resellers
-- Fixed value sales
-- Subscription sales
-- Usage sales
-
-Benefits
-- Blockchain harness
-- No issues of regulation
-
 How is blockchain used
-- Contract is created for resellers on blockchain on registering
-- As per contract blockchain token distribution happens for any sales, usage, subscription
+- Contract is created for business/resellers/engineers on blockchain 
+- This is done on registering/listing/using
+- As per contract blockchain token distribution happens for any activity
 - Tokens sit in each of parties account
 - User exchanges token to $/Rs/Native currency
 
