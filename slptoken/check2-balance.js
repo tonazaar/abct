@@ -19,7 +19,7 @@ else SLP = new SLPSDK({ restURL: `https://trest.bitcoin.com/v2/` })
 let walletInfo
 let TOKENID
 try {
-  walletInfo = require(`../../ipfssailsserverwork/.secret/wallet.live.json`)
+  walletInfo = require(`../../ipfssailsserverwork/.secret/wallet2.live.json`)
 
 } catch (err) {
   console.log(
