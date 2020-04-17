@@ -23,7 +23,7 @@ else SLP = new SLPSDK({ restURL: `https://trest.bitcoin.com/v2/` })
 // Open the wallet generated with create-wallet.
 let walletInfo
 try {
-  walletInfo = require(`../../../.secret/wallet.live.json`)
+  walletInfo = require(`../../ipfssailsserverwork/.secret/wallet.live.json`)
 } catch (err) {
   console.log(
     `Could not open wallet.live.json. Generate a wallet with create-wallet first.`

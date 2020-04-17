@@ -22,7 +22,7 @@ else SLP = new SLPSDK({ restURL: `https://trest.bitbox.earth/v1/` })
 // Open the wallet generated with create-wallet.
 let walletInfo
 try {
-  walletInfo = require(`../wallet/wallet.test.json`)
+  walletInfo = require(`../slpwallet/wallet.test.json`)
 } catch (err) {
   console.log(
     `Could not open wallet.test.json. Generate a wallet with create-wallet first.`
