@@ -3,7 +3,7 @@
 */
 
 // CUSTOMIZE THESE VALUES FOR YOUR USE
-const TOKENQTY = 1
+const TOKENQTY = 3
 
 // Set NETWORK to either testnet or mainnet
 const NETWORK = `mainnet`
@@ -27,10 +27,10 @@ let slpAddress
 let slpAddress2
 try {
   walletInfo = require(`../../ipfssailsserverwork/.secret/wallet.live.json`)
-  senderwalletInfo = require(`../../ipfssailsserverwork/.secret/wallet2.live.json`)
+  extendedaddresslist = require(`../../ipfssailsserverwork/.secret/extended.wallet.live.json`)
   TOKENID = require(`./token-live.json`).TOKENID;
-  slpAddress2 = require(`./token-live.json`).slpAddress;
-  slpAddress = require(`./token-live.json`).slpAddress2;
+  slpAddress = require(`./token-live.json`).slpAddress;
+  slpAddress2 = require(`./token-live.json`).slpAddress2;
 
 } catch (err) {
   console.log(
@@ -54,6 +54,8 @@ async function sendToken() {
     const account = SLP.HDNode.derivePath(masterHDNode, "m/44'/145'/0'")
 
     const change = SLP.HDNode.derivePath(account, "0/0")
+
+    var secondwif = SLP.HDNode.toWIF(extendedaddresslist[2]) // <-- compressed WIF format
 
     // get the cash address
     const cashAddress = SLP.HDNode.toCashAddress(change)
