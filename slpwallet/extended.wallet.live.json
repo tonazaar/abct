@@ -1,0 +1,62 @@
+[
+  {
+    "derivePath": "m/44'/145'/0'/0/0",
+    "cashAddress": "bitcoincash:qphwq5gx0w08s5cnr04j2g7ndadhktxqnq7hcd63nc",
+    "slpAddress": "simpleledger:qphwq5gx0w08s5cnr04j2g7ndadhktxqnqjvnk03dx",
+    "legacyAddress": "1B7G3tMMsCfjGfPidwHw9bNDWTA1egohWN"
+  },
+  {
+    "derivePath": "m/44'/145'/0'/0/1",
+    "cashAddress": "bitcoincash:qqmw5evyp95ddvntjmrkgux247zftd9truqlp6tyh3",
+    "slpAddress": "simpleledger:qqmw5evyp95ddvntjmrkgux247zftd9truvy2p7yf0",
+    "legacyAddress": "161NHWx5RTsaincP1fZyKzgVXmsi6Fi1AJ"
+  },
+  {
+    "derivePath": "m/44'/145'/0'/0/2",
+    "cashAddress": "bitcoincash:qq02mp282jky9l8wdvg3rgr3twaxhl86nytdkz6p36",
+    "slpAddress": "simpleledger:qq02mp282jky9l8wdvg3rgr3twaxhl86ny8kae0p0y",
+    "legacyAddress": "13oD9BNvWppTsqVi8ty84Fnp4obSzhbNGX"
+  },
+  {
+    "derivePath": "m/44'/145'/0'/0/3",
+    "cashAddress": "bitcoincash:qrtmzcek6jjvg47kfjjv35c097s9v8f2cy8ujzyjep",
+    "slpAddress": "simpleledger:qrtmzcek6jjvg47kfjjv35c097s9v8f2cyt8ee3j8l",
+    "legacyAddress": "1LfUnM8Bde41uBxKs8HtoYMcsmBv4mTDzn"
+  },
+  {
+    "derivePath": "m/44'/145'/0'/0/4",
+    "cashAddress": "bitcoincash:qrsvaqpr52vpn8apqzm60cp804jvj4xytvvjk7nkfv",
+    "slpAddress": "simpleledger:qrsvaqpr52vpn8apqzm60cp804jvj4xytvqfa9xkhj",
+    "legacyAddress": "1MVfjt14ivBvnb2WLVbVpbdsPWVkonktUD"
+  },
+  {
+    "derivePath": "m/44'/145'/0'/0/5",
+    "cashAddress": "bitcoincash:qz7a2z7v7uz6xacm4tjtq6wht8sqjef5kqfqa8z769",
+    "slpAddress": "simpleledger:qz7a2z7v7uz6xacm4tjtq6wht8sqjef5kq9mkuh7ym",
+    "legacyAddress": "1JJjvxaUXqintcgm2eFAeZUZGCSPFunFiG"
+  },
+  {
+    "derivePath": "m/44'/145'/0'/0/6",
+    "cashAddress": "bitcoincash:qr7w7yta5vhf6zfps7nd67jnsjyg0kzd6chhvzx27a",
+    "slpAddress": "simpleledger:qr7w7yta5vhf6zfps7nd67jnsjyg0kzd6cmv8en2qr",
+    "legacyAddress": "1Q4Pg6myaNJkHRca6hdrAxs9cBDyRS1YmP"
+  },
+  {
+    "derivePath": "m/44'/145'/0'/0/7",
+    "cashAddress": "bitcoincash:qzm9yk3jv9kx2gl53d4ts9f84c359weh3yept7atkk",
+    "slpAddress": "simpleledger:qzm9yk3jv9kx2gl53d4ts9f84c359weh3y46q9gtgg",
+    "legacyAddress": "1Hd2drVvD8KR6FSAbDiqAitodFDvri6iky"
+  },
+  {
+    "derivePath": "m/44'/145'/0'/0/8",
+    "cashAddress": "bitcoincash:qz45540cg4zqx4smtrz60a73ytt9mk3crcq9su5kx6",
+    "slpAddress": "simpleledger:qz45540cg4zqx4smtrz60a73ytt9mk3crcv7m8pkcy",
+    "legacyAddress": "1GchbkHXZjCRZz2zhrGnruQ3oT2VmEWn19"
+  },
+  {
+    "derivePath": "m/44'/145'/0'/0/9",
+    "cashAddress": "bitcoincash:qpc76w9ash0fhqglpfm893qtm574a6q2tsywj8zt3f",
+    "slpAddress": "simpleledger:qpc76w9ash0fhqglpfm893qtm574a6q2tsg4euht0h",
+    "legacyAddress": "1BPPY8H6EH8A4KE8ivAHQn4F3dkV7BzriV"
+  }
+]
