@@ -3,7 +3,7 @@
 */
 
 // CUSTOMIZE THESE VALUES FOR YOUR USE
-const TOKENQTY = 3
+const TOKENQTY = 10
 
 // Set NETWORK to either testnet or mainnet
 const NETWORK = `mainnet`
@@ -24,7 +24,7 @@ else SLP = new SLPSDK({ restURL: `https://trest.bitcoin.com/v2/` })
 let walletInfo
 let TOKENID
 let slpAddress
-let slpAddress2
+let slpAddress3
 try {
   walletInfo = require(`../../ipfssailsserverwork/.secret/wallet.live.json`)
   extendedaddresslist = require(`../../ipfssailsserverwork/.secret/extended.wallet.live.json`)
@@ -61,17 +61,16 @@ async function sendToken() {
     // get the cash address
     const cashAddress = SLP.HDNode.toCashAddress(change)
 //    const slpAddress = SLP.HDNode.toSLPAddress(change)
-    slpAddress2 = extendedaddresslist[2].slpAddress;
-    var slpAddress3 = extendedaddresslist[3].slpAddress;
-    const fundingAddress = slpAddress2
-    const fundingWif = secondwif ; //SLP.HDNode.toWIF(change) // <-- compressed WIF format
+    slpAddress3 = extendedaddresslist[3].slpAddress;
+    const fundingAddress = slpAddress
+    const fundingWif = SLP.HDNode.toWIF(change) // <-- compressed WIF format
     const tokenReceiverAddress = slpAddress3
     const bchChangeReceiverAddress = cashAddress
 
-    // Exit if user did not update the slpAddress2.
-    if (!slpAddress2 || slpAddress2 === "") {
+    // Exit if user did not update the slpAddress3.
+    if (!slpAddress3 || slpAddress3 === "") {
       console.log(
-        `slpAddress2 value is empty. Update the code with the slpAddress2 of your token.`
+        `slpAddress3 value is empty. Update the code with the slpAddress3 of your token.`
       )
       return
     }

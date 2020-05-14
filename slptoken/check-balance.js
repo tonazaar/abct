@@ -1,13 +1,12 @@
 /*
-  Check the SLP token balance by tokenId for the wallet created with the
+  Check the BCH and SLP token balances for the wallet created with the
   create-wallet example app.
 */
 
 // Set NETWORK to either testnet or mainnet
 const NETWORK = `mainnet`
 
-// Set the TOKEN ID you are interested in
-
+//const SLPSDK = require("../../lib/SLP").default
 const SLPSDK = require("slp-sdk")
 
 // Instantiate SLP based on the network.
@@ -17,13 +16,10 @@ if (NETWORK === `mainnet`)
 else SLP = new SLPSDK({ restURL: `https://trest.bitcoin.com/v2/` })
 
 // Open the wallet generated with create-wallet.
-let TOKENID;
 let walletInfo
-let slpAddress;
+let TOKENID
 try {
-//  walletInfo = require(`../create-wallet/wallet.json`)
-  TOKENID = require(`./token-live.json`).TOKENID;
-  slpAddress = require(`./token-live.json`).slpAddress;
+  walletInfo = require(`../../ipfssailsserverwork/.secret/wallet.live.json`)
 
 } catch (err) {
   console.log(
@@ -34,12 +30,11 @@ try {
 
 async function getBalance() {
   try {
-	  /*
+	  
     const mnemonic = walletInfo.mnemonic
 
     // root seed buffer
     const rootSeed = SLP.Mnemonic.toSeed(mnemonic)
-
     // master HDNode
     let masterHDNode
     if (NETWORK === `mainnet`) masterHDNode = SLP.HDNode.fromSeed(rootSeed)
@@ -52,19 +47,24 @@ async function getBalance() {
 
     // get the cash address
     const cashAddress = SLP.HDNode.toCashAddress(change)
-
-    // convert to slp address
     const slpAddress = SLP.Address.toSLPAddress(cashAddress)
 
+    // first get BCH balance
+    const balance = await SLP.Address.details(cashAddress)
+
+    console.log(`BCH Balance information for ${slpAddress}:`)
+    console.log(balance)
     console.log(`SLP Token information:`)
-  */
+
+
     // get token balances
     try {
-      const tokens = await SLP.Utils.balance(slpAddress, TOKENID)
+      const tokens = await SLP.Utils.balancesForAddress(slpAddress)
 
       console.log(JSON.stringify(tokens, null, 2))
     } catch (error) {
       if (error.message === "Address not found") console.log(`No tokens found.`)
+      else console.log(`Error: `, error)
     }
   } catch (err) {
     console.error(`Error in getBalance: `, err)

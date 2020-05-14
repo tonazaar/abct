@@ -20,6 +20,8 @@ let walletInfo
 let TOKENID
 try {
   walletInfo = require(`../../ipfssailsserverwork/.secret/wallet.live.json`)
+ extendedaddresslist = require(`../../ipfssailsserverwork/.secret/extended.wallet.live.json`)
+
 
 } catch (err) {
   console.log(
@@ -31,37 +33,18 @@ try {
 async function getBalance() {
   try {
 	  
-    const mnemonic = walletInfo.mnemonic
-
-    // root seed buffer
-    const rootSeed = SLP.Mnemonic.toSeed(mnemonic)
-    // master HDNode
-    let masterHDNode
-    if (NETWORK === `mainnet`) masterHDNode = SLP.HDNode.fromSeed(rootSeed)
-    else masterHDNode = SLP.HDNode.fromSeed(rootSeed, "testnet") // Testnet
-
-    // HDNode of BIP44 account
-    const account = SLP.HDNode.derivePath(masterHDNode, "m/44'/145'/0'")
-
-    const change = SLP.HDNode.derivePath(account, "0/0")
-
-    // get the cash address
-    const cashAddress = SLP.HDNode.toCashAddress(change)
-    const slpAddress = SLP.Address.toSLPAddress(cashAddress)
-
-    // first get BCH balance
-    const balance = await SLP.Address.details(cashAddress)
-
-    console.log(`BCH Balance information for ${slpAddress}:`)
-    console.log(balance)
-    console.log(`SLP Token information:`)
 
 
     // get token balances
     try {
-      const tokens = await SLP.Utils.balancesForAddress(slpAddress)
-
+    //  const tokens = await SLP.Utils.balancesForAddress(slpAddress)
+   for(var i =0; i< extendedaddresslist.length; i++ ) {
+      var tokens = await SLP.Utils.balancesForAddress( extendedaddresslist[i].slpAddress, TOKENID)
       console.log(JSON.stringify(tokens, null, 2))
+   }
+
+
+
     } catch (error) {
       if (error.message === "Address not found") console.log(`No tokens found.`)
       else console.log(`Error: `, error)
